@@ -2,16 +2,16 @@
 Tests for $package$.main.py
 """
 
-from $package$.main import *
+from $package$.main import msg
 
 
-class MainTest:
+class TestMain:
     """
-    MainTest
+    TestMain
     """
 
-    def automated_main_test(self):
+    def test_main_automated(self):
         """
-        MainTest
+        TestMain
         """
-        assert True
+        assert msg() == "Hello World"
