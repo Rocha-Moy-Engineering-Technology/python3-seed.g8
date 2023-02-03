@@ -1,6 +1,6 @@
 # $name$
 
-python3-project: `$name$`.
+`$interpreter$`-project: `$name$`.
 
 ## Testing
 
