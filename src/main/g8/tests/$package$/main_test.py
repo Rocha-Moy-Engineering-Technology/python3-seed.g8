@@ -1,17 +1,11 @@
-"""
-Tests for $package$.main.py
-"""
+"""$package$.main_test."""
 
-from $package$.main import msg
+from $package$.main import MainAttributes
 
 
 class TestMain:
-    """
-    TestMain
-    """
+    """TestMain."""
 
     def test_main_automated(self):
-        """
-        TestMain
-        """
-        assert msg() == "Hello World"
+        """test_main_automated."""
+        assert MainAttributes.HELLO_WORLD == "Hello World"

@@ -1,14 +1,14 @@
-"""
-Main module.
-"""
+"""main."""
+
+from enum import StrEnum, verify, UNIQUE
 
 
-def msg():
-    """
-    Returns Hello World
-    """
-    return "Hello World"
+@verify(UNIQUE)
+class MainAttributes(StrEnum):
+    """MainAttributes."""
+
+    HELLO_WORLD = "Hello World"
 
 
 if __name__ == "__main__":
-    print(msg())
+    print(MainAttributes.HELLO_WORLD)
