@@ -1,9 +1,9 @@
 """main."""
 
-from enum import StrEnum, verify, UNIQUE
+from enum import StrEnum, unique
 
 
-@verify(UNIQUE)
+@unique
 class MainAttributes(StrEnum):
     """MainAttributes."""
 
