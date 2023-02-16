@@ -1,12 +1,8 @@
-"""main."""
-
 from enum import StrEnum, unique
 
 
 @unique
 class MainAttributes(StrEnum):
-    """MainAttributes."""
-
     HELLO_WORLD = "Hello World"
 
 
