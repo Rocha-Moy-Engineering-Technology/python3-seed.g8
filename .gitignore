@@ -1,6 +1,9 @@
 target/
 .bloop/
-.metals/
-.vscode/
-project/metals.sbt
 project/project/
+project/target/
+project/.bloop/
+project/metals.sbt
+.bsp/
+.metals/
+.scalafmt.conf
