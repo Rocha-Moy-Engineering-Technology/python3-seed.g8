@@ -2,7 +2,7 @@
 // To test the template run `g8` or `g8Test` from the sbt session.
 // See http://www.foundweekends.org/giter8/testing.html#Using+the+Giter8Plugin for more details.
 ThisBuild / organization := "com.rmet"
-lazy val root = (project in file("."))
+lazy val python3_seed_g8 = (project in file("."))
   .enablePlugins(ScriptedPlugin)
   .settings(
     name := "python3-seed.g8",
