@@ -11,6 +11,7 @@ lazy val python3_seed_g8 = (project in file("."))
     },
     scriptedLaunchOpts ++= List(
       "-Xms1024m",
+      "-Xss1024m",
       "-Xmx1024m",
       "-XX:ReservedCodeCacheSize=128m",
       "-Xss2m",
