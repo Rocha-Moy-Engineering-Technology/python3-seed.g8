@@ -1,10 +1,5 @@
-from enum import StrEnum, unique
-
-
-@unique
-class MainAttributes(StrEnum):
-    HELLO_WORLD = "Hello World"
-
+# flake8: noqa
+from pybase import *
 
 if __name__ == "__main__":
-    print(MainAttributes.HELLO_WORLD)
+    pass

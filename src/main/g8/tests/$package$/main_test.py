@@ -1,6 +1,10 @@
-from $package$.main import MainAttributes
+# flake8: noqa
+import pytest  # pylint: disable=unused-import
+
+from $package$.main import *
 
 
-class TestMain:
-    def test_main_automated(self):
-        assert MainAttributes.HELLO_WORLD == "Hello World"
+class TestStructureName:
+    def test_function_name_automated(self):
+        assert False
+
