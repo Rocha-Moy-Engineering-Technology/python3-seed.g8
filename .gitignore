@@ -1,8 +1,6 @@
 target/
-.bloop/
 project/project/
 project/target/
-project/.bloop/
 .bsp/
 .metals/
 .scala-build
